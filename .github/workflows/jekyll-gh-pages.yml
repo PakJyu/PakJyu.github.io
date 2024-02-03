@@ -31,4 +31,4 @@ jobs:
           clean: true
           single-commit: true
         env:
-          GITHUB_TOKEN: ${{screts.ACCESS_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
