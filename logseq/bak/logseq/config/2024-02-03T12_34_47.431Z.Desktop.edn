@@ -46,7 +46,7 @@
 
  ;; Display all lines of a block when referencing ((block)).
  ;; Default value: false
- :ui/show-full-blocks? true
+ :ui/show-full-blocks? false
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
@@ -277,7 +277,7 @@
  ;; With the default value of level 2, block b will be collapsed.
  ;; If the level's value is set to 3, block c will be collapsed.
  ;; Default value: 2
- :ref/default-open-blocks-level 100
+ :ref/default-open-blocks-level 2
 
  ;; Configure the threshold for linked references before collapsing.
  ;; Default value: 100
@@ -413,5 +413,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy/MM/dd"
- :ui/show-brackets? false
- :editor/preferred-pasting-file? true}
+ :ui/show-brackets? false}
